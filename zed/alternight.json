@@ -1,0 +1,139 @@
+// Alternight for Zed
+// Created by Mauricio Paternina
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Alternight",
+  "author": "Maurizio Paternina <io@m-pr.dev>",
+  "themes": [
+    {
+      "name": "Alternight OG",
+      "appearance": "dark",
+      "style": {
+        "background": "#1F172B",
+        "panel.background": "#1F172B",
+        "status_bar.background": "#1F172B",
+        "surface.background": "#1F172B",
+        "tab_bar.background": "#1F172B",
+        // TODO: Define workaround, no border for tabs
+        "tab.active_background": "#BC9BCF",
+        //"tab.active_background": "#352E40",
+        "tab.inactive_background": "#1F172B",
+        "title_bar.background": "#1F172B",
+        "toolbar.background": "#1F172B",
+        "editor.active_line.background": "#352E40",
+        "editor.active_line_number": "#D3BDE0",
+        "editor.background": "#1F172B",
+        "editor.gutter.background": "#1F172B",
+        // TODO: Find ideal color
+        "search.match_background": "#78767F",
+        //"search.match_.background": "#1F172B",
+
+        // Foreground-related definitions
+        "foreground": "#CAAEEB",
+        "editor.foreground": "#CAAEEB",
+        "border": "#352E40",
+        "selection": "#525252",
+
+        // Terminal-specific styles
+        "terminal.background": "#1F172B",
+        "terminal.foreground": "#CAAEEB",
+        "terminal.bright_foreground": "#DAC6F1",
+        "terminal.dim_foreground": "#BF9DE7",
+
+        "syntax": {
+          "attribute": {
+            "color": "#DBF99F",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "boolean": {
+            "color": "#40CFCF",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment": {
+            "color": "#524168",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.doc": {
+            "color": "#6A5487",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "constant": {
+            "color": "#40CFCF",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "constructor": {
+            "color": "#E9B5B8",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function": {
+            "color": "#E7D5A4",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword": {
+            "color": "#A477BE",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "number": {
+            "color": "#FBB323",
+            //"color": "#F1B718",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property": {
+            "color": "#5C7FE2",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string": {
+            "color": "#4CA779",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.escape": {
+            "color": "#99D1B5",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.regex": {
+            "color": "#F67751",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.special": {
+            "color": "#0000FF",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.special.symbol": {
+            "color": "#00FFFF",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type": {
+            "color": "#E27171",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "variable": {
+            "color": "#DF84A2",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.special": {
+            "color": "#FF6781",
+            "font_style": "italic",
+            "font_weight": null
+          },
+        }
+      }
+    }
+  ]
+}

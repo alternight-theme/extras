@@ -16,7 +16,7 @@ A version of AlterNight is available for the following editors and programming t
 
 - Warp
 
-  <img src="https://raw.githubusercontent.com/alternight-theme/extras/main/screenshots/alternight-x-warp.png" width="720" />
+  <img src="https://raw.githubusercontent.com/alternight-theme/extras/main/screenshots/AlterNightxWarp.png" width="720" />
 
 ## Wishlist
 
